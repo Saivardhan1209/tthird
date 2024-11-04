@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Why study in Australia</title>
+    <style>
+        .container {
+            height: 500px;
+            width: 500px;
+            border: 1px solid red;
+            background-color: rgba(22, 18, 18, 0.603);
+            text-align: center;
+        }
+
+        .heading,
+        .subheading {
+            color: white;
+        }
+
+        .edu {
+            color: yellow;
+        }
+
+        .line {
+            width: 200px;
+        }
+
+        .main {
+            background-color: yellow;
+            color: red;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .box {
+            background-color: white;
+            border-radius: 10px;
+            width: 250px;
+            margin-left: 120px;
+
+        }
+
+        .box input {
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+
+        .submit {
+            background-color: yellow;
+            color: black;
+            font-size: large;
+            width: 120px;
+            border-radius: 10px;
+        }
+         
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">
+            STUDY IN <span class="edu">
+                EDUREKA!
+                <hr class="line">
+            </span>
+        </h1>
+        <!-- heading done -->
+        <h3 class="subheading">
+            For a World-class Education & <br>
+            Unforgettable Experience
+            <hr class="line">
+        </h3>
+        <!-- subheading done -->
+        <form>
+            <button class="main">
+                Jan 2025 Intake
+            </button>
+            <br>
+            <div class="box">
+
+               <h1>Contact us Today</h1>
+                <input type="text" placeholder="Name*" class="padding" /><br />
+                <input type="number" placeholder="Mobile*" class="padding" /><br />
+                <input type="email" placeholder="Email*" /><br />
+                <input type="text" list="States" placeholder="states*">
+                <datalist id="States">
+                    <option>TELANGANA</option>
+                    <option>PUNE</option>
+                    <option>MUMBAI</option>
+                    <option>BANGALORE</option>
+                    <option>TAMILANADU</option>
+                    <option>ANDRA PRADESH</option>
+                </datalist><br />
+                <input type="text" list="TELANGANA" placeholder="Districts*">
+                <datalist id="TELANGANA">
+                    <option>NIZAMABAD</option>
+                    <option>ARMOUR</option>
+                    <option>BANSWADA</option>
+                    <option>KAMAREDDY</option>
+                    <option>BODHAN</option>
+                    <option>HYDERABAD</option>
+                </datalist><br />
+                <input type="submit" class="submit"/>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
